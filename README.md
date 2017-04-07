@@ -15,7 +15,7 @@ To run on a dedicated cpu and have a more reliable result, use the following com
 taskset -ac 0 make perf
 ``
 
-As an example, see the image below generate locally using the command above.
+As an example, see the image below generated locally using the command above.
 
 ![Compare Results](https://raw.githubusercontent.com/igorsnunes/load_vec_cmp/master/doc/LoadVecCompare.png) 
 
