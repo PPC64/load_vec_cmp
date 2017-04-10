@@ -19,7 +19,6 @@ int main (int argc, char *argv) {
   }
 
   uint8_t *ptr_first = (uint8_t*)&(in_byte[i]);
-  //uint8_t *ptr_last  = (base_type*)&(in_byte[j]);
 
 #else
   uint8_t  *in_byte = (uint8_t*)malloc(sizeof(uint8_t)*SIZE_IN+16);
@@ -31,7 +30,6 @@ int main (int argc, char *argv) {
   }
 
   uint8_t *ptr_first = (uint8_t*)&(in_byte[i]);
-  //uint8_t *ptr_last  = (base_type*)&(in_byte[j]);
 
 #endif
 

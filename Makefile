@@ -2,14 +2,9 @@
 
 CC=gcc
 C_FILES=load.c
-C_INV_FILES=load-inverse.c
-DBG_FLAGS=-O0 -g
 FLAGS=-O3
 OUT=load
-DBG=dbg
 BIN_DIR=./bin
-TXT_O=out.txt
-
 
 all: load
 
